@@ -63,7 +63,8 @@ Continue with [references/ingest-sync.md](references/ingest-sync.md).
 
 ## Workflow: query the workspace
 
-Prefer MCP. Start with `weave_sources` to discover aliases, then scope a tool call:
+Prefer MCP. Start with `weave_sources`, then use `weave_list` or `weave_search` to find a concept
+before reading it. `weave://bundle/index` is not a concept catalog. Then scope a tool call:
 
 ```json
 {"name": "weave_search", "arguments": {"query": "token rotation", "source": "notes", "mode": "hybrid"}}

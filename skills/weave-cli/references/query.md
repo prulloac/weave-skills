@@ -5,6 +5,10 @@ being served.
 
 ## MCP first
 
+Start with `weave_sources`, then `weave_list` or `weave_search` to find a concept. Do not treat
+`weave://bundle/index` as a concept catalog: it contains root `index.md` entries and is rejected in
+workspace mode.
+
 | Need | MCP tool |
 | --- | --- |
 | Discover sources | `weave_sources` |
@@ -31,11 +35,15 @@ as `alias:id`.
 
 ```text
 weave://workspace/sources
+weave://workspace/concepts
+weave://workspace/stats
 weave://source/<alias>/concept/<id>
 weave://source/<alias>/bundle/index
 weave://source/<alias>/bundle/stats
 weave://blob/<id>
 ```
+
+Use `weave://workspace/concepts` for discovery when a concept ID is unknown.
 
 `weave_show` returns blob metadata and a URI; read the bytes through the blob resource.
 
