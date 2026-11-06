@@ -50,15 +50,14 @@ Installers are user-level and never require `sudo` or administrator rights.
 
 ## Compatibility
 
-The workspace workflows documented here require a Weave build with workspace support. It is on
-`main` and is not part of the published `v1.0.0` release.
+The workspace workflows documented here require Weave `v1.0.0` or newer. The skill declares its
+minimum Weave version and `weave.contract/v1` in `SKILL.md`.
+
+For development builds:
 
 ```sh
 go install github.com/prulloac/weave/cmd/weave@main
 ```
-
-Install the skill only after `weave workspace --help` works. The skill declares its minimum Weave
-version and `weave.contract/v1` in `SKILL.md`.
 
 ## Safety
 

@@ -4,7 +4,7 @@ description: Operate a Weave knowledge workspace with the CLI — create workspa
 metadata:
   version: "0.1.0"
 compatibility:
-  weave: "main with workspace support (>= 1.1.0)"
+  weave: ">= 1.0.0"
   contract: "weave.contract/v1"
 ---
 
