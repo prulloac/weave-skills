@@ -2,9 +2,9 @@
 name: Weave CLI
 description: Operate a Weave knowledge workspace with the CLI — create workspaces, add and remove bundles, ingest, sync, export and maintain embeddings — and route read-only search and retrieval to the Weave MCP server.
 metadata:
-  version: "0.1.0"
+  version: "0.7.0"
 compatibility:
-  weave: ">= 1.0.0"
+  weave: ">= 0.7.0"
   contract: "weave.contract/v1"
 ---
 

@@ -50,7 +50,7 @@ Installers are user-level and never require `sudo` or administrator rights.
 
 ## Compatibility
 
-The workspace workflows documented here require Weave `v1.0.0` or newer. The skill declares its
+The workspace workflows documented here require Weave `v0.7.0` or newer. The skill declares its
 minimum Weave version and `weave.contract/v1` in `SKILL.md`.
 
 For development builds:
