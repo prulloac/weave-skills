@@ -78,6 +78,12 @@ WEAVE_BIN=weave ./scripts/conformance.sh
 `scripts/check.sh` validates skill layout, frontmatter and Markdown. `scripts/conformance.sh` creates
 a temporary workspace and exercises the documented commands, including the MCP stdio handshake.
 
+## Issues
+
+This repository does not accept issues. Report first-party defects and documentation errors in
+[`prulloac/weave`](https://github.com/prulloac/weave/issues/new/choose); security reports use private
+vulnerability reporting there.
+
 ## Related
 
 - [Weave CLI](https://github.com/prulloac/weave)
